@@ -5,8 +5,8 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'main', 
-                    credentialsId: 'Bharath', 
-                    url: 'https://github.com/gitboy321/Devops-project.git'
+                    credentialsId: 'Anirudh-Alur', 
+                    url: 'https://github.com/Anirudh-Alur/Devops-Optimization.git'
             }
         }
 
